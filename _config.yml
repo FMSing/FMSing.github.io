@@ -3,7 +3,7 @@ layout: default
 markdown: kramdown
 kramdown:
   toc_levels: 1..2
-title: "Universal MelGAN: A Robust Neural Vocoder for High-Fidelity Waveform Generation in Multiple Domains"
-description: Won Jang<sup>1</sup>, Dan Lim<sup>2</sup>, Jaesam Yoon<sup>1</sup>
-address1: <sup>1</sup>Kakao Enterprise Corp., Seongnam, Korea
-address2: <sup>2</sup>Kakao Corp., Seongnam, Korea
+title: "SingVocoder: Source-based Universal Singing Voice Vocoder with Generative Adversarial Network"
+#description: Author<sup>1</sup>, Author<sup>2</sup>, Author<sup>1</sup>
+#address1: <sup>1</sup>Zhejiang University, China
+#address2: <sup>2</sup>Zhejiang University, China
