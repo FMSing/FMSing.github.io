@@ -8,14 +8,14 @@
 
 # Abstract
 ![Image](figure1.jpg){: width="50%"}{: .center}  
-![Image](figure2.jpg){: width="50%"}{: .center}  
-![Image](figure3.jpg){: width="20%"}{: .center} 
+![Image](figure3.jpg){: width="20%"}{: .center}  
+![Image](figure2.jpg){: width="40%"}{: .center} 
 
 High-fidelity multi-speaker singing voice synthesis is challenging for neural vocoder due to the singing voice data shortage, limited speaker generalization, and long-term waveforms modeling. Existing open corpora could not meet requirements for high-fidelity singing voice synthesis since their scale and quality weakness. Furthermore, previous vocoders have difficulty in multi-speaker modeling and a distinct degradation emerges when adapting to unseen speaker singing voice generation. To accelerate singing voice researches in the community, we release a large-scale, multi-speaker Chinese singing voice dataset OpenSing. We propose FMSing, a fast and multi-speaker vocoder with a generative adversarial network for tackling the difficulty during unseen speaker modeling. Specifically, 1) FMSing uses a multi-band generator to speed up both training and inference procedure. 2) to capture and rebuild speaker identity from the acoustic feature (i.e., mel-spectrogram), FMSing adopts a speaker conditional discriminator and conditional adversarial training objective. 3) to supervise the reconstruction of speaker representations in spectrum envelopes in the frequency domain, we firstly propose an auxiliary speaker perceptual loss. The joint training approach effectively works in GANs for multi-speaker waveforms modeling. Experimental results verify the effectiveness of OpenSing for singing voice synthesis and show that FMSing synthesizes singing voices of unseen speakers faster with higher quality and similarity over previous methods. The further experiment proves that combined with FastSpeech 2 as an acoustic model, FMSing achieves strong robustness in the multi-speaker singing voice synthesis pipeline. Audio samples are available at <a href="https://FMSing.github.io/"><i>https://FMSing.github.io/</i></a>.
 
 # OpenSing: Singing voice corpus
 
-OpenSing contains pop songs collected from 93 singers, and singing utterances are saved in wav format, sampled at 24 kHz, and quantized by 16 bits. OpenSing consists of 50 hours of singing voices recorded in a professional recording studio, including 30 hours from 56 females and 20 hours from 37 males apart from the person-of-interest (POI). Figure~\ref{fig:Sing_Phoneme} summarize the distribution of pitch, sentence-level duration, and phoneme-level duration of utterances both sang by woman and man. The major features of OpenSing include:
+OpenSing contains pop songs collected from 93 singers, and singing utterances are saved in wav format, sampled at 24 kHz, and quantized by 16 bits. OpenSing consists of 50 hours of singing voices recorded in a professional recording studio, including 30 hours from 56 females and 20 hours from 37 males apart from the person-of-interest (POI). The major features of OpenSing include:
 
 - Open source. Lack of data could block in building singing voice synthesis systems, we release our corpus to accelerate research in the community.
 - Large scale. Data-hungry singing voice systems need a great amount of data in the training process. To our best knowledge, OpenSing is the largest Chinese multi-speaker singing voice corpus.
