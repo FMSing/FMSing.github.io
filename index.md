@@ -21,7 +21,7 @@ OpenSing contains pop songs collected from 93 singers, and singing utterances ar
 - Large scale. Data-hungry singing voice systems need a great amount of data in the training process. To our best knowledge, OpenSing is the largest Chinese multi-speaker singing voice corpus.
 - High quality. Similar to text-to-speech, high-quality audios without noise or background sound are essential for high-fidelity singing voice synthesis. Professional singers and studios both ensure high-quality utterances in OpenSing.
 
-We have attach part of OpenSing to the supplementary materials, and we will release the entire dataset after paper publication.
+We have attached part of OpenSing to the supplementary materials, and we will release the entire dataset after paper publication.
 
 <!-- |Pretrained Models|Config|
 |--|--|
