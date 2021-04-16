@@ -35,11 +35,11 @@ We have attached part of OpenSing to the supplementary materials, and we will re
     <thead>
     <th style="text-align: center">Speaker</th>
     <th style="text-align: center">Recording</th>
-    <th style="text-align: center">WaveRNN</th>
-    <th style="text-align: center">SC-WaveRNN</th>
-    <th style="text-align: center">Parallel WaveGAN</th>
-    <th style="text-align: center">MelGAN</th>
-    <th style="text-align: center">FMSing</th>
+    <th style="text-align: center">anonymous 1</th>
+    <th style="text-align: center">anonymous 2</th>
+    <th style="text-align: center">anonymous 3</th>
+    <th style="text-align: center">anonymous 4</th>
+    <th style="text-align: center">anonymous 5</th>
     </thead>
     <tbody>
         <tr>
@@ -114,11 +114,11 @@ We have attached part of OpenSing to the supplementary materials, and we will re
     <thead>
     <th style="text-align: center">Speaker</th>
     <th style="text-align: center">Recording</th>
-    <th style="text-align: center">WaveRNN</th>
-    <th style="text-align: center">SC-WaveRNN</th>
-    <th style="text-align: center">Parallel WaveGAN</th>
-    <th style="text-align: center">MelGAN</th>
-    <th style="text-align: center">FMSing</th>
+    <th style="text-align: center">anonymous 1</th>
+    <th style="text-align: center">anonymous 2</th>
+    <th style="text-align: center">anonymous 3</th>
+    <th style="text-align: center">anonymous 4</th>
+    <th style="text-align: center">anonymous 5</th>
     </thead>
     <tbody>
         <tr>
