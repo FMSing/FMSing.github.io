@@ -185,7 +185,7 @@ We have attach part of OpenSing to the supplementary materials, and we will rele
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/MelGAN/14.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/FMSing_total/14.wav" type="audio/wav"></audio></td>
         </tr>
-    </tbody<>
+    </tbody>
 </table>
 
 # Singing Voice Synthesis
