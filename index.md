@@ -35,65 +35,65 @@ We have attached part of OpenSing to the supplementary materials, and we will re
     <thead>
     <th style="text-align: center">Speaker</th>
     <th style="text-align: center">Recording</th>
-    <th style="text-align: center">anonymous 1</th>
-    <th style="text-align: center">anonymous 2</th>
-    <th style="text-align: center">anonymous 3</th>
-    <th style="text-align: center">anonymous 4</th>
-    <th style="text-align: center">anonymous 5</th>
+    <th style="text-align: center">Column #1</th>
+    <th style="text-align: center">Column #2</th>
+    <th style="text-align: center">Column #3</th>
+    <th style="text-align: center">Column #4</th>
+    <th style="text-align: center">Column #5</th>
     </thead>
     <tbody>
         <tr>
             <th>#1</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/GT/1.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/Parallel_WaveGAN_50w/1_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/WaveRNN/1.npy__750k_steps.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/SC_WaveRNN/1.wav__750k_steps.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/Parallel_WaveGAN_50w/1_gen.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/FMSing_total/1_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/MelGAN/1_gen.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/FMSing_total/1_gen.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     <tbody>
         <tr>
             <th>#2</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/GT/3.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/WaveRNN/3.npy__750k_steps.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/SC_WaveRNN/3.wav__750k_steps.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/WaveRNN/3.npy__750k_steps.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/Parallel_WaveGAN_50w/3_gen.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/MelGAN/3_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/FMSing_total/3_gen.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/MelGAN/3_gen.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     <tbody>
         <tr>
             <th>#3</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/GT/7.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/WaveRNN/7.npy__750k_steps.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/SC_WaveRNN/7.wav__750k_steps.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/WaveRNN/7.npy__750k_steps.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/Parallel_WaveGAN_50w/7_gen.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/MelGAN/7_gen.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/FMSing_total/7_gen.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/FMSing_total/7_gen.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/MelGAN/7_gen.wav" type="audio/wav"></audio></td>   
         </tr>
     </tbody>
         <tbody>
         <tr>
             <th>#4</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/GT/100627002.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/WaveRNN/100627002.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/SC_WaveRNN/100627002.wav__750k_steps.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/WaveRNN/100627002.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/Parallel_WaveGAN_50w/100627002_gen.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/MelGAN/100627002.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/FMSing_total/100627002_gen.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/FMSing_total/100627002_gen.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/MelGAN/100627002.wav" type="audio/wav"></audio></td> 
         </tr>
     </tbody>
     <tbody>
         <tr>
             <th>#5</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/GT/m2_2_stc4.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/MelGAN/m2_2_stc4.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/WaveRNN/m2_2_stc4.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/FMSing_total/m2_2_stc4_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/SC_WaveRNN/m2_2_stc4.wav__750k_steps.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/Parallel_WaveGAN_50w/m2_2_stc4_gen.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/MelGAN/m2_2_stc4.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/FMSing_total/m2_2_stc4_gen.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/Parallel_WaveGAN_50w/m2_2_stc4_gen.wav" type="audio/wav"></audio></td>  
         </tr>
     </tbody>
     <tbody>
@@ -101,10 +101,10 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#6</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/GT/m4_1_stc2.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/WaveRNN/m4_1_stc2.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/MelGAN/m4_1_stc2.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/SC_WaveRNN/m4_1_stc2.wav__750k_steps.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/FMSing_total/m4_1_stc2_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/Parallel_WaveGAN_50w/m4_1_stc2_gen.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/MelGAN/m4_1_stc2.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/FMSing_total/m4_1_stc2_gen.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
 </table>
@@ -124,66 +124,66 @@ We have attached part of OpenSing to the supplementary materials, and we will re
         <tr>
             <th>#1</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/GT/10.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/WaveRNN/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/SC_WaveRNN/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/ParallWaveGAN/10.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/FMSing_total/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/MelGAN/10.wav" type="audio/wav"></audio></td>
-            <<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/FMSing_total/10.wav" type="audio/wav"></audio></td>
-        </tr>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/WaveRNN/10.wav" type="audio/wav"></audio></td>
+	</tr>
     </tbody>
     <tbody>
         <tr>
             <th>#2</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/GT/11.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/WaveRNN/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/SC_WaveRNN/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/ParallWaveGAN/11.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/FMSing_total/11.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/WaveRNN/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/MelGAN/11.wav" type="audio/wav"></audio></td>
-            <<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/FMSing_total/11.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     <tbody>
         <tr>
             <th>#3</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/GT/15.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/WaveRNN/15.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/SC_WaveRNN/15.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/WaveRNN/15.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/FMSing_total/15.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/ParallWaveGAN/15.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/MelGAN/15.wav" type="audio/wav"></audio></td>
-            <<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/FMSing_total/15.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
         <tbody>
         <tr>
             <th>#4</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/GT/10.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/WaveRNN/10.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/10.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/PWG/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/MelGAN/10.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/FMSing_total/10.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/WaveRNN/10.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/10.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/FMSing_total/10.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/PWG/10.wav" type="audio/wav"></audio></td>       
         </tr>
     </tbody>
     <tbody>
         <tr>
             <th>#5</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/GT/25.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/WaveRNN/25.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/25.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/WaveRNN/25.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/PWG/25.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/MelGAN/25.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/FMSing_total/25.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/MelGAN/25.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     <tbody>
         <tr>
             <th>#6</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/GT/14.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/WaveRNN/14.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/14.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/PWG/14.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/MelGAN/14.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/FMSing_total/14.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/WaveRNN/14.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/14.wav" type="audio/wav"></audio></td>
+	    <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/FMSing_total/14.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/PWG/14.wav" type="audio/wav"></audio></td>       
         </tr>
     </tbody>
 </table>
