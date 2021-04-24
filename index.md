@@ -44,7 +44,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#1</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/GT/1.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/WaveRNN/1.npy__750k_steps.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/SC_WaveRNN/11.wav__750k_steps.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/SC_WaveRNN/1.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/Parallel_WaveGAN_50w/1_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/MelGAN/1_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/FMSing_total/1_gen.wav" type="audio/wav"></audio></td>
@@ -55,7 +55,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#2</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/GT/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/WaveRNN/10.npy__750k_steps.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/SC_WaveRNN/110.wav__750k_steps.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/SC_WaveRNN/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/Parallel_WaveGAN_50w/10_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/MelGAN/10_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/FMSing_total/10_gen.wav" type="audio/wav"></audio></td>
@@ -66,7 +66,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#3</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/GT/4.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/WaveRNN/4.npy__750k_steps.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/SC_WaveRNN/14.wav__750k_steps.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/SC_WaveRNN/4.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/Parallel_WaveGAN_50w/4_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/MelGAN/4_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_woman/FMSing_total/4_gen.wav" type="audio/wav"></audio></td>
@@ -77,7 +77,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#4</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/GT/100627002.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/WaveRNN/100627002.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/SC_WaveRNN/1100627002.wav__750k_steps.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/SC_WaveRNN/100627002.npy__1100k_steps.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/Parallel_WaveGAN_50w/100627002_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/MelGAN/100627002.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/FMSing_total/100627002_gen.wav" type="audio/wav"></audio></td>
@@ -88,7 +88,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#5</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/GT/m2_2_stc4.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/WaveRNN/m2_2_stc4.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/SC_WaveRNN/1m2_2_stc4.wav__750k_steps.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/SC_WaveRNN/m2_2_stc4.npy__1100k_steps.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/Parallel_WaveGAN_50w/m2_2_stc4_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/MelGAN/m2_2_stc4.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/FMSing_total/m2_2_stc4_gen.wav" type="audio/wav"></audio></td>
@@ -99,7 +99,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#6</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/GT/m2_1_stc1.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/WaveRNN/m2_1_stc1.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/SC_WaveRNN/m2_1_stc1.wav__750k_steps.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/SC_WaveRNN/m2_1_stc1.npy__1100k_steps.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/Parallel_WaveGAN_50w/m2_1_stc1_gen.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/MelGAN/m2_1_stc1.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_unseen_man/FMSing_total/m2_1_stc1_gen.wav" type="audio/wav"></audio></td>
@@ -123,7 +123,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#1</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/GT/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/WaveRNN/10.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/SC_WaveRNN/110.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/SC_WaveRNN/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/ParallWaveGAN/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/MelGAN/10.wav" type="audio/wav"></audio></td>
             <<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/FMSing_total/10.wav" type="audio/wav"></audio></td>
@@ -134,7 +134,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#2</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/GT/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/WaveRNN/11.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/SC_WaveRNN/111.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/SC_WaveRNN/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/ParallWaveGAN/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/MelGAN/11.wav" type="audio/wav"></audio></td>
             <<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/FMSing_total/11.wav" type="audio/wav"></audio></td>
@@ -145,7 +145,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#3</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/GT/15.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/WaveRNN/15.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/SC_WaveRNN/115.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/SC_WaveRNN/15.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/ParallWaveGAN/15.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/MelGAN/15.wav" type="audio/wav"></audio></td>
             <<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_woman/FMSing_total/15.wav" type="audio/wav"></audio></td>
@@ -156,7 +156,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#4</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/GT/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/WaveRNN/10.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/110.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/PWG/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/MelGAN/10.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/FMSing_total/10.wav" type="audio/wav"></audio></td>
@@ -167,7 +167,7 @@ We have attached part of OpenSing to the supplementary materials, and we will re
             <th>#5</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/GT/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/WaveRNN/11.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/111.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/PWG/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/MelGAN/11.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/FMSing_total/11.wav" type="audio/wav"></audio></td>
@@ -175,10 +175,10 @@ We have attached part of OpenSing to the supplementary materials, and we will re
     </tbody>
     <tbody>
         <tr>
-            <th>#6</th>AU
+            <th>#6</th>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/GT/12.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/WaveRNN/12.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/112.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/SC_WaveRNN/12.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/PWG/12.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/MelGAN/12.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/singing/Test_seen_man/FMSing_total/12.wav" type="audio/wav"></audio></td>
