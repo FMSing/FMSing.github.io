@@ -3,5 +3,5 @@ layout: default
 markdown: kramdown
 kramdown:
   toc_levels: 1..2
-title: "FMSing: Fast Multi-Speaker Vocoder with A large-Scale Singing Voice Corpus"
+title: "Multi-Singer: Fast Multi-Singer Singing Voice Vocoder With A Large-Scale Corpus"
 
