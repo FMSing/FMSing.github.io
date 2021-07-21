@@ -10,23 +10,27 @@
 ![Image](figure.jpg){: width="70%"}{: .center}  
 
 
-High-fidelity multi-singer singing voice synthesis is challenging for neural vocoder due to the singing voice data shortage, limited singer generalization, and large computational cost. Existing open corpora could not meet requirements for high-fidelity singing voice synthesis because of the scale and quality weaknesses. Previous vocoders have difficulty in multi-singer modeling, and a distinct degradation emerges when conducting unseen singer singing voice generation. To accelerate singing voice researches in the community, we release a large-scale, multi-singer Chinese singing voice dataset OpenSinger. 
-To tackle the difficulty in unseen singer modeling, we propose Multi-Singer, a fast multi-singer vocoder with generative adversarial networks. Specifically, 1) Multi-Singer uses a multi-band generator to speed up both training and inference procedure. 2) to capture and rebuild singer identity from the acoustic feature (i.e., mel-spectrogram), Multi-Singer adopts a singer conditional discriminator and conditional adversarial training objective. 3) to supervise the reconstruction of singer identity in the spectrum envelopes in frequency domain, we propose an auxiliary singer perceptual loss. The joint training approach effectively works in GANs for multi-singer voices modeling. Experimental results verify the effectiveness of OpenSinger and show that Multi-Singer improves unseen singer singing voices modeling in both speed and quality over previous methods. The further experiment proves that combined with FastSpeech 2 as the acoustic model, Multi-Singer achieves strong robustness in the multi-singer singing voice synthesis pipeline. Audio samples are available at <a href="https://multi-singer.github.io/"><i>https://multi-singer.github.io/</i></a>.
+High-fidelity multi-singer singing voice synthesis is challenging for neural vocoder due to the singing voice data shortage, limited singer generalization, and large computational cost. Existing open corpora could not meet requirements for high-fidelity singing voice synthesis because of the scale and quality weaknesses. Previous vocoders have difficulty in multi-singer modeling, and a distinct degradation emerges when conducting unseen singer singing voice generation. To accelerate singing voice researches in the community, we release a large-scale, multi-singer Chinese singing voice dataset OpenSing. For tackling the difficulty in unseen singer modeling, we propose FMSing, a fast multi-singer vocoder with generative adversarial networks. Specifically, 1) FMSing uses a multi-band generator to speed up both training and inference procedure. 2) to capture and rebuild singer identity from the acoustic feature (i.e., mel-spectrogram), FMSing adopts a singer conditional discriminator and conditional adversarial training objective. 3) to supervise the reconstruction of singer identity in the spectrum envelopes in frequency domain, we propose an auxiliary singer perceptual loss. The joint training approach effectively works in GANs for multi-singer voices modeling. Experimental results verify the effectiveness of OpenSing and show that FMSing improves unseen singer singing voices modeling in both speed and quality over previous methods. The further experiment proves that combined with FastSpeech 2 as an acoustic model, FMSing achieves strong robustness in the multi-singer singing voice synthesis pipeline. Audio samples are available at <a href="https://FMSing.github.io/"><i>https://FMSing.github.io/</i></a>.
 
-# OpenSinger: Singing voice corpus
+# OpenSing: Singing voice corpus
 
-OpenSinger contains pop songs collected from 93 singers, and singing utterances are saved in wav format, sampled at 24 kHz, and quantized by 16 bits. OpenSinger consists of 50 hours of singing voices recorded in a professional recording studio, including 30 hours from 41 females and 20 hours from 25 males apart from the person-of-interest (POI). Figures in appendix A in the supplementary materials summarize the distribution of pitch, sentence-level duration, and phoneme-level duration of utterances. The major features of OpenSinger include:
+![Image](appendix1.png){: width="70%"}{: .center}  
+
+OpenSing contains pop songs collected from 93 singers, and singing utterances are saved in wav format, sampled at 24 kHz, and quantized by 16 bits. OpenSing consists of 50 hours of singing voices recorded in a professional recording studio, including 30 hours from 41 females and 20 hours from 25 males apart from the person-of-interest (POI). Figures in appendix A in the supplementary materials summarize the distribution of pitch, sentence-level duration, and phoneme-level duration of utterances. The major features of OpenSing include:
 - Open source. Lack of data could obstruct the construction of SVS systems, so we release our corpus to accelerate research in the community.
-- Large scale. Data-hungry singing voice systems need a significant amount of data in the training process. To our best knowledge, OpenSinger is the most extensive Chinese multi-singer singing voice corpus.
-- High quality. Similar to text-to-speech, high-quality audios without noise or background sound are essential for high-fidelity singing voice synthesis. Professional singers and studios both ensure high-quality utterances in OpenSinger.
+- Large scale. Data-hungry singing voice systems need a significant amount of data in the training process. To our best knowledge, OpenSing is the most extensive Chinese multi-singer singing voice corpus.
+- High quality. Similar to text-to-speech, high-quality audios without noise or background sound are essential for high-fidelity singing voice synthesis. Professional singers and studios both ensure high-quality utterances in OpenSing.
 
-We will release the dataset after paper publication.
+We have attached part of OpenSing to the supplementary materials, and we will release the entire dataset after paper publication.
 
 <!-- |Pretrained Models|Config|
 |--|--|
 |[MelGAN](https://www.dropbox.com/s/nfwv48bnovidnod/de_logdir.zip?dl=0)| <a href="MelGAN.ymal">MelGAN.yaml </a>
 |[Parallel WaveGAN](https://www.dropbox.com/s/nfwv48bnovidnod/de_logdir.zip?dl=0)| <a href="Parallel WaveGAN.ymal">Parallel WaveGAN.yaml </a>
 |[WaveRNN](https://www.dropbox.com/s/nfwv48bnovidnod/de_logdir.zip?dl=0)| <a href="WaveRNN.ymal">WaveRNN.yaml </a> -->
+
+# Speaker Encoder
+![Image](appendix2.png){: width="70%"}{: .center}  
 
 # Multi-speaker modeling (Unseen Speakers)
 
@@ -38,7 +42,7 @@ We will release the dataset after paper publication.
     <th style="text-align: center">SC-WaveRNN</th>
     <th style="text-align: center">Parallel WaveGAN</th>
     <th style="text-align: center">MelGAN</th>
-    <th style="text-align: center">Multi-Singer</th>
+    <th style="text-align: center">FMSing</th>
     </thead>
     <tbody>
         <tr>
@@ -117,7 +121,7 @@ We will release the dataset after paper publication.
     <th style="text-align: center">SC-WaveRNN</th>
     <th style="text-align: center">Parallel WaveGAN</th>
     <th style="text-align: center">MelGAN</th>
-    <th style="text-align: center">Multi-Singer</th>
+    <th style="text-align: center">FMSing</th>
     </thead>
     <tbody>
         <tr>
@@ -195,7 +199,7 @@ We will release the dataset after paper publication.
 	<thead>
 		<tr>
 			<th style="text-align: center">Recording</th>
-			<th style="text-align: center">FastSpeech2+Multi-Singer</th>
+			<th style="text-align: center">FastSpeech2+FMSing</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -213,7 +217,7 @@ We will release the dataset after paper publication.
 	<thead>
 		<tr>
 			<th style="text-align: center">Recording</th>
-			<th style="text-align: center">FastSpeech2+Multi-Singer</th>
+			<th style="text-align: center">FastSpeech2+FMSing</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -231,7 +235,7 @@ We will release the dataset after paper publication.
 	<thead>
 		<tr>
 			<th style="text-align: center">Recording</th>
-			<th style="text-align: center">FastSpeech2+Multi-Singer</th>
+			<th style="text-align: center">FastSpeech2+FMSing</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -249,7 +253,7 @@ We will release the dataset after paper publication.
 	<thead>
 		<tr>
 			<th style="text-align: center">Recording</th>
-			<th style="text-align: center">FastSpeech2+Multi-Singer</th>
+			<th style="text-align: center">FastSpeech2+FMSing</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -268,7 +272,7 @@ We will release the dataset after paper publication.
 	<thead>
 		<tr>
 			<th style="text-align: center">Recording</th>
-			<th style="text-align: center">FastSpeech2+Multi-Singer</th>
+			<th style="text-align: center">FastSpeech2+FMSing</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -288,7 +292,7 @@ We will release the dataset after paper publication.
 	<thead>
 		<tr>
 			<th style="text-align: center">Recording</th>
-			<th style="text-align: center">FastSpeech2+Multi-Singer</th>
+			<th style="text-align: center">FastSpeech2+FMSing</th>
 		</tr>
 	</thead>
 	<tbody>
